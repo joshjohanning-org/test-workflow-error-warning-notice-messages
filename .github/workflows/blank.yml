@@ -28,6 +28,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: test one of each
         run: |
+          # these only show AFTER a workflow has finished
           echo "::error title=error title::error msg"
           echo "::warning title=warning title::warning msg"
           echo "::notice title=notice title::notice msg"
