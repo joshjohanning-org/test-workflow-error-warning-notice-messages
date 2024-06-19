@@ -35,6 +35,6 @@ jobs:
 
       - name: example
         run: |
-          echo "::notice title=long job::note that this step is going to take up to an hour to complete"
+          echo -e "\033[0;36mTHIS IS GOING TO TAKE UP TO AN HOUR TO RUN\033[0m"
           sleep 3600
           
