@@ -32,3 +32,9 @@ jobs:
           echo "::warning title=warning title::warning msg"
           echo "::notice title=notice title::notice msg"
           echo "::debug title=debug title::debug msg" # this will only show for debug of course
+
+      - name: example
+        run: |
+          echo "::notice title=long job::note that this step is going to take up to an hour to complete"
+          sleep 3600
+          
