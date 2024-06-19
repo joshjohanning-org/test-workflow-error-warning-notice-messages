@@ -35,6 +35,6 @@ jobs:
 
       - name: example
         run: |
-          echo -e "\033[0;36mTHIS IS GOING TO TAKE UP TO AN HOUR TO RUN\033[0m"
+          echo -e "\033[38;5;208mTHIS WILL TAKE UP TO AN HOUR!\033[0m"
           sleep 3600
           
